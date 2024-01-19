@@ -38,8 +38,7 @@ let obj1 = {
   id: "1",
 };
 
-let obj2 = obj1;
-
+let obj2 = obj1; // Points to the same oject
 obj2.email = "smiteshp101@gmail.com";
 
 console.log(obj1.email);
